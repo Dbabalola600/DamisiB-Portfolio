@@ -5,6 +5,7 @@ import DefaultLayout from '../components/DefaultLayout'
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import LoadingAnimation from '../components/Loading';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -29,6 +30,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
+    <Head>
+<title>Damisi Babalola</title>
+
+<link  rel="icon" type="image/png" href="/logo.ico" />
+
+    </Head>
     {loading && <LoadingAnimation/>}
       <DefaultLayout>
 

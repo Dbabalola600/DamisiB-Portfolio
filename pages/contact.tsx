@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 
-export default function Contact(){
+export default function Contact() {
 
 
     const [formData, setFormData] = useState({
@@ -46,7 +46,7 @@ export default function Contact(){
     };
     return (
         <>
-          <div className="flex h-full">
+            <div className="flex h-full">
                 <div className="my-auto w-full">
                     <h1 className="text-4xl text-center font-semibold text-primary tracking-wider self-center">
                         <span className="text-gray-700">Contact</span> me
@@ -82,6 +82,7 @@ export default function Contact(){
                     <div className="mx-10 lg:mx-32">
                         <form onSubmit={HandleSubmit}>
                             <div className="md:grid md:grid-cols-2 gap-x-8">
+                                {/* name */}
                                 <div className="mt-4">
                                     <label className="uppercase block text-sm font-semibold text-gray-700">Full Name</label>
                                     <div className="mt-1">
@@ -96,11 +97,11 @@ export default function Contact(){
                                                     fullName: e.target.value
                                                 });
                                             }}
-                                            className="w-full focus:border-primary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
+                                            className="w-full focus:border-primary bg-secondary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
                                         />
                                     </div>
                                 </div>
-
+                                {/* email */}
                                 <div className="mt-4">
                                     <label className="uppercase block text-sm font-semibold text-gray-700">Email</label>
                                     <div className="mt-1">
@@ -115,11 +116,11 @@ export default function Contact(){
                                                     email: e.target.value
                                                 });
                                             }}
-                                            className="w-full focus:border-primary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
+                                            className="w-full focus:border-primary bg-secondary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
                                         />
                                     </div>
                                 </div>
-
+                                {/* subject  */}
                                 <div className="mt-4 md:col-span-2">
                                     <label className="uppercase block text-sm font-semibold text-gray-700">Subject</label>
                                     <div className="mt-1">
@@ -134,10 +135,12 @@ export default function Contact(){
                                                     subject: e.target.value
                                                 });
                                             }}
-                                            className="w-full focus:border-primary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
+                                            className="w-full focus:border-primary bg-secondary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
                                         />
                                     </div>
                                 </div>
+
+                                {/* message */}
 
                                 <div className="mt-4 md:col-span-2">
                                     <label className="uppercase block text-sm font-semibold text-gray-700">Message</label>
@@ -145,7 +148,7 @@ export default function Contact(){
                                         <textarea
                                             required
                                             name="message"
-                                        
+
 
                                             value={formData.message}
                                             onChange={(e) => {
@@ -154,7 +157,7 @@ export default function Contact(){
                                                     message: e.target.value
                                                 });
                                             }}
-                                            className="w-full h-28 focus:border-primary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
+                                            className="w-full h-28 focus:border-primary bg-secondary rounded focus:ring focus:ring-primary focus:ring-opacity-50"
                                         ></textarea>
                                     </div>
                                 </div>
