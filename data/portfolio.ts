@@ -20,7 +20,7 @@ export const portfolio = [
     {
         id: 4397,
         title: "Mood Pop",
-        description: "web app aimed at improving individual mental health through controlled communication",
+        description: "web app aimed at improving individual mental health through controlled communication (mongodb, nextjs, typescript)",
         img: mood,
         url: "https://mood-pop.vercel.app/"
     },
