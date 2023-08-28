@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
 
             <div className="text-center text-white">
-                <p className="text-base">&copy; {new Date().getFullYear()} John Olatubosun</p>
+                <p className="text-base">&copy; {new Date().getFullYear()} Damisi Babalola</p>
             </div>
         </footer>
     )
