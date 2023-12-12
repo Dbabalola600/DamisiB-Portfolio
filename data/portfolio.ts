@@ -3,6 +3,8 @@ import logo from "../public/logo.svg"
 import JafosLogo from "../public/JafosLogo.png"
 import mood from "../public/mood.png"
 import mtulogo from "../public/mtulogo.png"
+import SparkPot from "../public/SparkPot.png"
+import JaegDonn from "../public/JaegDonn.png"
 export const portfolio = [
     {
         id: 4385,
@@ -10,6 +12,20 @@ export const portfolio = [
         description: "A website showcase my skills and projects",
         img: logo,
         url: "https://damisi-b-portfolio.vercel.app        "
+    },
+    {
+        id: 4355,
+        title: "JaegDonn Care",
+        description: "Medical Adherance system built with nextjs and react native (web and mobile currently in development )",
+        img: JaegDonn,
+        url: "https://jaegdonn-care.vercel.app/"
+    },
+    {
+        id: 4365,
+        title: "Spark Pot",
+        description: "Personalised Cookbook built with react native (currently in development)",
+        img: SparkPot,
+        url: "https://drive.google.com/file/d/11CjHbTFMoZtSXXnyAej7OA6U6cEJdH-G/view?usp=sharing"
     },
     {
         id: 4395,
