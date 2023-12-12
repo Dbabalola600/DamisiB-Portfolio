@@ -26,7 +26,7 @@ const Home: NextPage = () => {
               <div className="font-ligth text-center text-xl text-gray-700 mt-3 lg:text-left">
                 <Typewriter
                   options={{
-                    strings: ["Full-Stack Developer", "FE-Heavy Dev", "Lover of Christ"],
+                    strings: ["Full-Stack Developer", "FE-Heavy Dev", "Web & Mobile Dev"],
                     autoStart: true,
                     loop: true
                   }}
