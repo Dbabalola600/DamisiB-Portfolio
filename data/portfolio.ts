@@ -14,6 +14,13 @@ export const portfolio = [
         url: "https://damisi-b-portfolio.vercel.app        "
     },
     {
+        id: 4593,
+        title: "Mobile apps",
+        img: logo,
+        description: "A collection of downloadable mobile apks built for demo purposes ranging from health, fintech, ecommerce and more.",
+        url: "https://drive.google.com/drive/folders/10cokHmuInjEopHItnBiymM9s12ceHv2G?usp=sharing"
+    },
+    {
         id: 4355,
         title: "JaegDonn Care",
         description: "Medical Adherance system built with nextjs and react native (web and mobile currently in development )",
@@ -48,5 +55,5 @@ export const portfolio = [
         img: mtulogo,
         url: "https://internal-memo.vercel.app/"
     },
-    
+
 ];
