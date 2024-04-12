@@ -29,7 +29,7 @@ export default function Portfolio() {
                                 index >= (page - 1) * numberPerPage &&
                                 index < page * numberPerPage && (
                                     <div className="mb-12 md:mb-24 md:grid md:grid-cols-5 md:gap-x-0 gap-x-0 " key={item.id}>
-                                        <div className="md:col-span-3 drop-shadow-lg mx-auto w-[200px] h-[200px]">
+                                        <div className="md:col-span-3 drop-shadow-lg mx-auto w-[20vw] h-[20vw]">
                                             <Image src={item.img} alt="hello"  />
                                         </div>
 
